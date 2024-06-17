@@ -10,6 +10,11 @@
 `git clone <URL репозитория>`
 `cd <название проекта>`
 
+## 2.1 Создание бота через @BotFather
+
+Зайдите в @BotFather и с помощью /new_bot создайте нового бота
+получить API TOKEN и укажите его в dockerfile в строке `ENV TOKEN='Токен из @BotFather'`
+
 ## 3. Сборка Docker образа
 
 Соберите Docker образ из Dockerfile:
